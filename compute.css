@@ -49,8 +49,9 @@
     word-wrap: break-word;
     word-break: break-all;
     border-radius: 16px 16px 0px 0px;
+    
   }
-  #result{
-    color: white;
+  .output input#result{
+    color:black;
     font-size: 2rem;
   }
