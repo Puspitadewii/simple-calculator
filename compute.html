@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="compute.css">
+    <title>kalkulator</title>
+</head>
+<body>
+    <div class="calculator-grid">
+        <div class="output">
+            <h1 id="result"></h1>
+        </div>
+        <button data-all-center class="span-two" onclick="forclear()">AC</button>
+       <button data-delete>DEL</button>
+       <button data-operation onclick="perc()">%</button>
+       <button data-number value="1" onclick="fordisplay('1')">1</button>
+       <button data-number value="2" onclick="fordisplay('2')">2</button>
+       <button data-number value="3" onclick="fordisplay('3')">3</button>
+        <button data-operation value="X" onclick="fordisplay('*')">*</button>
+        <button data-number value="4" onclick="fordisplay('4')">4</button>
+       <button data-number value="5" onclick="fordisplay('5')">5</button>
+       <button data-number value="6"onclick="fordisplay('6')">6</button>
+       <button data-operation value="+" onclick="fordisplay('+')">+</button>
+       <button data-number value="7" onclick="fordisplay('7')">7</button>
+       <button data-number value="8" onclick="fordisplay('8')">8</button>
+       <button data-number value="9" onclick="fordisplay('9')">9</button>
+       <button data-operation value="-" onclick="fordisplay('-')">-</button>
+       <button data-number value="." class="span-two-left">.</button>
+       <button data-number value="0" onclick="fordisplay('0')">0</button>
+       <button data-equals value="=" class="span-two-right" onclick="solve()">=</button>
+    </div>
+</body>
+<script src="compute.js"></script>
+<script>
+
+</script>
+</html>
